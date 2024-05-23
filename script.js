@@ -15,4 +15,6 @@ document.getElementById("button").addEventListener("click", function () {
     const netTotalPrice = mainPrice - netTotalDiscountPrice;
     netPriceElement.innerText = netTotalPrice;
 
+    inputDiscount.value = "";
+
 });
